@@ -1,5 +1,5 @@
 .cover{
-    background-image: linear-gradient(-90deg, #C99CF4,#6387FA);
+    background-image: linear-gradient(-90deg, #fbc2eb,#a6c1ee);
     width: 100%;
     height: 700px;
     padding: 0;
@@ -19,6 +19,7 @@
     top: 0;
     overflow: hidden;
     list-style-type: none;
+    position: sticky;
 }
 
 .canchinh{
@@ -762,19 +763,7 @@ h2{
     border-style: solid;
     border-color: white;
 }
-.anh2{
-    position: absolute;
-    /* background-color: violet; */
-    background-image: url("nhaxinh.jpg");
-    width: 200px;
-    height: 200px;
-    /* z-index: 2; */
-    top: 5%;
-    left: 5%;
-    border-radius: 30px;
-    border-style: solid;
-    border-color: white;
-}
+
 #anh{
     width: 100%;
     margin: 0;
@@ -787,9 +776,10 @@ h2{
     /* background-color: yellowgreen; */
     display: flex;
     float: right;
-    font-size: 110%;
+    font-size: 180%;
     padding: 4% 5%;
-    color: white;
+    color: #BE9AF4;
+    text-align: inherit;
 }
 
 footer{
@@ -797,9 +787,12 @@ footer{
     height: 400px;
 }
 .hoha{
-    height: 100%;
     background-color: pink;
     width: 100%;
+    margin: 12% 0 0 0;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 150%;
 }
 #readmore{
     padding: 0;
@@ -813,3 +806,45 @@ footer{
     color: #9668D4;
 }
 
+.gachduoi{
+    background-color: black;
+    width: 15%;
+    height: 6%;
+    margin: 2% 0;
+
+}
+.dkiemail{
+    background-color: lightblue;
+    margin: 5% 0;
+}
+.nhapem{
+    background-color: lightpink;
+    display: flex;
+    height: 30%;
+    align-items: center;
+    padding: 0;
+}
+input[type=email] {
+    background-color: #3D3838;
+    color: white;
+    width: 100%;
+    border-radius: 20px;
+    border-style: none;
+    margin: 0;
+    height: 90%;
+    padding: 0 3%;
+}
+#send{
+    right: 0;
+    /* background-color: white; */
+    display: block;
+    font-size: 200%;
+    color: tomato;
+    background-image: linear-gradient(-90deg, #fbc2eb,#a6c1ee);
+    padding: 3% 3%;
+    border-radius: 50%;
+    position: absolute;
+}
+#maybay{
+    color: black;
+}
