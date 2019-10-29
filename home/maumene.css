@@ -1,5 +1,5 @@
 .cover{
-    background-image: linear-gradient(-90deg, #fbc2eb,#a6c1ee);
+    background-image: linear-gradient(-90deg, #C99CF4,#6387FA);
     width: 100%;
     height: 700px;
     padding: 0;
@@ -19,7 +19,7 @@
     top: 0;
     overflow: hidden;
     list-style-type: none;
-    position: sticky;
+    /* position: sticky; */
 }
 
 .canchinh{
@@ -60,11 +60,11 @@
     padding: 0 7.3%;
 }
 #logo{
-    background-color: grey;
+    /* background-color: grey; */
     display: flex;
     justify-content: left;
     align-items: center;
-    color: black;
+    color: white;
     font-family: 'Montserrat';
     font-weight: 800;
     font-size: 40px;
@@ -75,7 +75,7 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: 'Montserrat';
     font-size: 93%;
     font-weight: 500;
@@ -83,12 +83,12 @@
     padding: 0;
 }
 #user2:hover a{
-    color: #C99CF4; 
+    color: white; 
 }
 #user1{
     border-radius: 12px;
     display: flex;
-    background-color: gray;
+    background-color: #C99CF4;
     align-items: center;
     justify-content: center;
     margin: 10px 0;
@@ -138,7 +138,7 @@ img{
     width: 70%;
     background-color: white;
     border-radius: 12px;
-    color: #7E73C9;
+    color: #6387FA;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,7 +176,7 @@ img{
     padding: 0;
 }
 #gachngang{
-    background-color: #BE9AF4;
+    background-color: #C99CF4;
     width: 100%;
     height: 18%;
     padding: 0;
@@ -190,7 +190,7 @@ img{
     font-size: 30px;
     font-family: 'Montserrat';
     font-weight: 800;
-    color: #BE9AF4;
+    color: #C99CF4;
 }
 .reque{
     font-size: 40px;
@@ -231,7 +231,7 @@ img{
     background-color: black;
     border-style: solid;
     border-width: 2px;
-    border-color: #BE9AF4;
+    border-color: #C99CF4;
 }
 .hienthi{
     /* background-color: aqua; */
@@ -251,7 +251,7 @@ img{
     color: white;
 }
 #tennghoi a:hover{
-    color: #BE9AF4;
+    color: #C99CF4;
     text-decoration: none;
 }
 #avabang{
@@ -322,7 +322,7 @@ img{
     height: 40%;
     /* background-color: aqua; */
     margin: 0;
-    color: #BE9AF4;
+    color: #C99CF4;
     font-size: 150%;
     font-family: 'Montserrat';
     font-weight: 800;
@@ -334,7 +334,7 @@ img{
 }
 
 #noidunghoi a {
-    color: #BE9AF4;
+    color: #C99CF4;
 }
 #noidunghoi a:hover{
     color: white;
@@ -394,7 +394,7 @@ img{
     background-color: #3D3838;
     border-style: solid;
     border-width: 3px;
-    border-color: #BE9AF4;
+    border-color: #C99CF4;
 }
 .nutxemthem2{
     background-color: black;
@@ -421,7 +421,7 @@ img{
     height: 40%;
     /* background-color: darkblue; */
     margin: 0;
-    color: #BE9AF4;
+    color: #C99CF4;
     font-size: 220%;
     font-family: 'Montserrat';
     font-weight: 800;
@@ -432,7 +432,7 @@ img{
     text-align: center;
 }
 #noidungroom a {
-    color: #BE9AF4;
+    color: #C99CF4;
 }
 #noidungroom a:hover{
     color: white;
@@ -476,11 +476,11 @@ img{
 }
 #id a:hover{
     text-decoration: none;
-    color: #BE9AF4;
+    color: #C99CF4;
 }
 #id2 a:hover{
     text-decoration: none;
-    color: #BE9AF4;
+    color: #C99CF4;
 }
 #pri{
     width: 35%;
@@ -538,7 +538,7 @@ img{
     border-radius: 12px;
 }
 #public2{
-    background-color: #BE9AF4;;
+    background-color: #C99CF4;
     height: 30%;
     display: flex;
     justify-content: center;
@@ -554,7 +554,7 @@ img{
     height: 5%;
 }
 #private{
-    background-color: #BE9AF4;
+    background-color: #C99CF4;
     height: 65%;
     color: black;
     text-align: center;
@@ -652,7 +652,7 @@ input[type=password] {
     float: right;
 }
 #nutlikes a:hover{
-    color: #BE9AF4;
+    color: #C99CF4;
 }
 #nutcmts{
     width: 30%;
@@ -660,7 +660,7 @@ input[type=password] {
     float: right;   
 }
 #nutcmts a:hover{
-    color: #BE9AF4;
+    color: #C99CF4;
     text-decoration: none;
 }
 #nutshare{
@@ -669,7 +669,7 @@ input[type=password] {
     float: right;   
 }
 #nutshare a:hover{
-    color: #BE9AF4;
+    color: #C99CF4;
     text-decoration: none;
 }
 
@@ -679,7 +679,7 @@ input[type=password] {
 }
 h1{
     font-size: 100%;
-    color: #BE9AF4;
+    color: #C99CF4;
     font-family: 'Montserrat';
     font-weight: 800;
 }
@@ -778,7 +778,7 @@ h2{
     float: right;
     font-size: 180%;
     padding: 4% 5%;
-    color: #BE9AF4;
+    color: #C99CF4;
     text-align: inherit;
 }
 
@@ -787,7 +787,7 @@ footer{
     height: 400px;
 }
 .hoha{
-    background-color: pink;
+    /* background-color: pink; */
     width: 100%;
     margin: 12% 0 0 0;
     font-family: 'Montserrat';
@@ -800,7 +800,7 @@ footer{
     position: absolute; 
     bottom: 10%;
     height: 10%;
-    color: #BE9AF4;
+    color: #C99CF4;
 }
 #readmore:hover{
     color: #9668D4;
@@ -814,11 +814,11 @@ footer{
 
 }
 .dkiemail{
-    background-color: lightblue;
+    /* background-color: lightblue; */
     margin: 5% 0;
 }
 .nhapem{
-    background-color: lightpink;
+    /* background-color: lightpink; */
     display: flex;
     height: 30%;
     align-items: center;
@@ -833,17 +833,20 @@ input[type=email] {
     margin: 0;
     height: 90%;
     padding: 0 3%;
+    position: relative;
 }
 #send{
-    right: 0;
+    right: 17px;
     /* background-color: white; */
     display: block;
-    font-size: 200%;
-    color: tomato;
-    background-image: linear-gradient(-90deg, #fbc2eb,#a6c1ee);
+    font-size: 100%;
+    background-image: linear-gradient(-90deg, #C99CF4,#6387FA);
     padding: 3% 3%;
-    border-radius: 50%;
+    border-radius: 40%;
     position: absolute;
+}
+#send a:hover{
+    text-decoration: none;
 }
 #maybay{
     color: black;
