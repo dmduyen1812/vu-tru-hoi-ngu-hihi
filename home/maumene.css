@@ -10,7 +10,7 @@
 }
 
 .my-nav-bar {
-    background-color:black;
+    background-color: #1B1B1B;
     color: white;
     height: 20%;
     position: relative;
@@ -19,8 +19,14 @@
     top: 0;
     overflow: hidden;
     list-style-type: none;
-    /* position: sticky; */
+    position: sticky;
+    z-index: 500;
+    box-shadow: 0 3px 5px 0  black;
 }
+/* .menuba{
+    z-index: 500;
+    box-shadow: 0 3px 5px 0  black;
+} */
 
 .canchinh{
     /* background-color: #6387FA; */
@@ -54,7 +60,7 @@
 }
 
 #button:hover a{
-    color: black;
+    color: #1B1B1B;
 }
 .row{
     padding: 0 7.3%;
@@ -75,7 +81,7 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: black;
+    color: #1B1B1B;
     font-family: 'Montserrat';
     font-size: 93%;
     font-weight: 500;
@@ -165,7 +171,7 @@ img{
     margin: 0 14px 0 0;
 }
 .bang1{
-    background-color: black;
+    background-color: #1B1B1B;
     width: 100%;
     height: 725px;
     padding: 0;
@@ -220,7 +226,7 @@ img{
     font-family: 'Montserrat';
     font-weight: 800;
     text-decoration: none;
-    color: black;
+    color: #1B1B1B;
 }
 .join, .join a{
     background-color: #C99CF4;
@@ -233,23 +239,23 @@ img{
     font-family: 'Montserrat';
     font-weight: 800;
     text-decoration: none;
-    color: black;
+    color: #1B1B1B;
 }
 
 .join:hover a{
     color: #C99CF4;; 
-    background-color: black;
+    background-color: #1B1B1B;
 }
 .join:hover{
-    background-color: black; 
+    background-color: #1B1B1B; 
     border: 2px solid #C99CF4;
 }
 .createque:hover a{
     color: white; 
-    background-color: black;
+    background-color: #1B1B1B;
 }
 .createque:hover{
-    background-color: black; 
+    background-color: #1B1B1B; 
     border: 2px solid white;
 }
 .detailque{
@@ -259,7 +265,7 @@ img{
     border-radius: 30px;
 }
 .detailque:hover{
-    background-color: black;
+    background-color: #1B1B1B;
     border-style: solid;
     border-width: 2px;
     border-color: #C99CF4;
@@ -316,7 +322,7 @@ img{
 
 /* phần hiển thị chủ đề hỏi */
 #chudehoi {
-    color: black;
+    color: #1B1B1B;
     height: 15%;
     background-color: white;
     margin: 0 25%;
@@ -329,7 +335,7 @@ img{
     text-align: center;
 }
 #chudehoi a{
-    color: black;
+    color: #1B1B1B;
     font-size: 110%;
 }
 #chudehoi a:hover{
@@ -403,7 +409,7 @@ img{
     color: white;
 }
 #chuxemthem a:hover{
-    color: black;
+    color: #1B1B1B;
     text-decoration: none;
 }
 
@@ -418,7 +424,7 @@ img{
 .detailroom{
     width: 100%;
     height: 400px;
-    background-color: black;
+    background-color: #1B1B1B;
     border-radius: 30px;
 }
 .detailroom:hover{
@@ -428,7 +434,7 @@ img{
     border-color: #C99CF4;
 }
 .nutxemthem2{
-    background-color: black;
+    background-color: #1B1B1B;
     margin: 2% 0;
     text-align: center;
     display: block;
@@ -443,7 +449,7 @@ img{
     color: white;
 }
 #chuxemthem2 a:hover{
-    color: black;
+    color: #1B1B1B;
     text-decoration: none;
 }
 
@@ -578,7 +584,7 @@ img{
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 90%;
-    color: black;
+    color: #1B1B1B;
     border-radius: 12px;
 }
 #khoangcach{
@@ -587,7 +593,7 @@ img{
 #private{
     background-color: #C99CF4;
     height: 65%;
-    color: black;
+    color: #1B1B1B;
     text-align: center;
     padding: 0;
     position: relative;
@@ -627,7 +633,7 @@ img{
     margin: 0 5%;
 }
 #pass2{
-    background-color: black;
+    background-color: #1B1B1B;
     padding: 2% 3%;
     margin: 0;
     width: 90%;
@@ -723,7 +729,7 @@ h2{
 
 /* phần bảng blogs */
 .bang3{
-    background-color: black;
+    background-color: #1B1B1B;
     width: 100%;
     height: 890px;
     padding: 0;
@@ -838,7 +844,7 @@ footer{
 }
 
 .gachduoi{
-    background-color: black;
+    background-color: #1B1B1B;
     width: 15%;
     height: 6%;
     margin: 2% 0;
@@ -880,5 +886,5 @@ input[type=email] {
     text-decoration: none;
 }
 #maybay{
-    color: black;
+    color: #1B1B1B;
 }
