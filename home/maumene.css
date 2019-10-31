@@ -83,15 +83,18 @@
     padding: 0;
 }
 #user2:hover a{
-    color: white; 
+    color: #C99CF4;
 }
 #user1{
     border-radius: 12px;
     display: flex;
-    background-color: #C99CF4;
+    background-color: white;
     align-items: center;
     justify-content: center;
     margin: 10px 0;
+}
+#user1:hover {
+    background-color: #3D3838;
 }
 img{
     width: 100%;
@@ -182,18 +185,19 @@ img{
     padding: 0;
     margin: 0;
 }
+
 .tieude1{
     /* background-color: beige; */
     padding: 70px 7.3% 0 7.3%;
 }
 .noidung{
-    font-size: 30px;
+    font-size: 120%;
     font-family: 'Montserrat';
     font-weight: 800;
     color: #C99CF4;
 }
 .reque{
-    font-size: 40px;
+    font-size: 180%;
     font-family: 'Montserrat';
     font-weight: 800;
     color: white;
@@ -206,20 +210,47 @@ img{
     align-items: center;
 }
 .createque, .createque a{
-    background-color: gray;
-    margin: 15px 0;
+    background-color: white;
+    margin: 8px 4px;
     border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 120%;
+    /* font-size: 120%; */
     font-family: 'Montserrat';
     font-weight: 800;
     text-decoration: none;
     color: black;
 }
+.join, .join a{
+    background-color: #C99CF4;
+    margin: 8px 4px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 120%; */
+    font-family: 'Montserrat';
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+}
+
+.join:hover a{
+    color: #C99CF4;; 
+    background-color: black;
+}
+.join:hover{
+    background-color: black; 
+    border: 2px solid #C99CF4;
+}
 .createque:hover a{
-    color: white;  
+    color: white; 
+    background-color: black;
+}
+.createque:hover{
+    background-color: black; 
+    border: 2px solid white;
 }
 .detailque{
     width: 100%;
@@ -235,7 +266,7 @@ img{
 }
 .hienthi{
     /* background-color: aqua; */
-    margin: 25px 0;
+    margin: 18px 0;
 }
 
 
