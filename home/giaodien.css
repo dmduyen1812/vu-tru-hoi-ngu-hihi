@@ -23,10 +23,6 @@
     z-index: 500;
     box-shadow: 0 3px 5px 0  black;
 }
-/* .menuba{
-    z-index: 500;
-    box-shadow: 0 3px 5px 0  black;
-} */
 
 .canchinh{
     /* background-color: #6387FA; */
@@ -43,7 +39,7 @@
     width: 100%;
     font-size: 85%;
     height: 45%;
-    margin: 10% 0;
+    margin: 11% 6%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,6 +48,7 @@
     font-weight: 600;
     text-align: center;
     /* background-color: darkblue; */
+    padding:;
 }
 #button:hover {
     background-color: white;
@@ -855,11 +852,12 @@ footer{
     margin: 5% 0;
 }
 .nhapem{
-    /* background-color: lightpink; */
+    background-color: lightpink;
     display: flex;
     height: 30%;
     align-items: center;
     padding: 0;
+    width: 77%;
 }
 input[type=email] {
     background-color: #3D3838;
@@ -873,14 +871,15 @@ input[type=email] {
     position: relative;
 }
 #send{
-    right: 17px;
     /* background-color: white; */
     display: block;
     font-size: 100%;
     background-image: linear-gradient(-90deg, #C99CF4,#6387FA);
     padding: 3% 3%;
-    border-radius: 40%;
+    border-radius: 45%;
     position: absolute;
+    z-index: 100;
+    left: 278px;
 }
 #send a:hover{
     text-decoration: none;
