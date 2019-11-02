@@ -364,11 +364,15 @@ img{
     width: 100%;
     margin-left: 95px;
 }
+.nhapbl{
+    /* background-color: antiquewhite; */
+    width: 100%;
+}
 #gocmt{
     margin: 40px 0;
     height: 200px;
     border-radius: 12px;
-    width: 1200px;
+    width: 100%;
 }
 ::placeholder{
     font-style: italic;
@@ -380,6 +384,7 @@ img{
     background-color: #C99CF4;
     border-radius: 12px;
     display: block;
+    margin: 1px 0;
     margin-bottom: 60px;
 }
 #buttbl a{
