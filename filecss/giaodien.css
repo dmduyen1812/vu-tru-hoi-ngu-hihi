@@ -786,11 +786,10 @@ h2{
 }
 .anh{
     position: absolute;
-    /* background-color: violet; */
-    background-image: url("nhaxinh.jpg");
+    background-color: white;
+    background-image: url("fileanh/nha.jpg");
     width: 450px;
     height: 450px;
-    /* z-index: 2; */
     top: 5%;
     left: 5%;
     border-radius: 30px;
