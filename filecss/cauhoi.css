@@ -187,7 +187,6 @@ img{
     margin: 0 10px;
     border-radius: 30px;
     text-align: center;
-    font-family: 'Montserrat';
     font-weight: 800;
     text-decoration: none;
     color: #1B1B1B;
@@ -298,26 +297,44 @@ img{
 }
 #cachchon{
     color: white;
+    margin-right: 10px;
 }
-.cachbl{
-    display: block;
+.cachbl, .cachbl a{
+    background-color: white;
+    margin: 0 10px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 800;
+    text-decoration: none;
+    color: #1B1B1B;
+    padding: 4px 2px;
+}
+.cachbl:hover a{
+    color: white; 
+    background-color: #1B1B1B;
+}
+.cachbl:hover:hover{
+    background-color: #1B1B1B; 
+    border: 2px solid white;
+}
+/* .cachbl{
     background-color: white;
     margin-left: 15px;
     padding: 3px 10px;
     border-radius: 12px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
 }
+
 .cachbl:hover{
     background-color: #1B1B1B;
     border: 2px solid white;
 }
-.cachbl a{
-    color: black;
-    font-weight: 600;
-}
 .cachbl a:hover{
     color: white;
     text-decoration: none;
-}
+} */
 .comment{
     text-align: inherit;
     width: 90%;
