@@ -1,3 +1,6 @@
+body, footer{
+    font-family: 'Montserrat';
+}
 .cover{
     background-image: linear-gradient(-90deg, #C99CF4,#6387FA);
     width: 100%;
@@ -40,8 +43,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-    font-family: 'Montserrat';
+    text-decoration: none;;
     font-weight: 600;
     text-align: center;
     /* background-color: darkblue; */
@@ -64,8 +66,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    color: white;
-    font-family: 'Montserrat';
+    color: white;;
     font-weight: 800;
     font-size: 40px;
     padding: 0;
@@ -77,8 +78,7 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: #1B1B1B;
-    font-family: 'Montserrat';
+    color: #1B1B1B;;
     font-size: 93%;
     font-weight: 500;
     margin: 0;
@@ -126,16 +126,14 @@ img{
 }
 #chu1{
     font-size: 310%;
-    text-align: inherit;
-    font-family: 'Montserrat';
+    text-align: inherit;;
     font-weight: 800;
 }
 #chu2{
     text-align: inherit;
     margin: 20px 0;
     font-size: 140%;
-    color: white;
-    font-family: 'Montserrat';
+    color: white;;
     font-weight: 400;
 }
 #nut2, #nut2 a {
@@ -148,8 +146,7 @@ img{
     justify-content: center;
     align-items: center;
     margin: 40px 0;
-    font-size: 20px;
-    font-family: 'Montserrat';
+    font-size: 20px;;
     font-weight: 600;
 }
 #ava {
@@ -193,14 +190,12 @@ img{
     padding: 70px 7.3% 0 7.3%;
 }
 .noidung{
-    font-size: 120%;
-    font-family: 'Montserrat';
+    font-size: 120%;;
     font-weight: 800;
     color: #C99CF4;
 }
 .reque{
-    font-size: 180%;
-    font-family: 'Montserrat';
+    font-size: 180%;;
     font-weight: 800;
     color: white;
     padding: 20px 0;
@@ -218,8 +213,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* font-size: 120%; */
-    font-family: 'Montserrat';
+    /* font-size: 120%; */;
     font-weight: 800;
     text-decoration: none;
     color: #1B1B1B;
@@ -239,8 +233,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* font-size: 120%; */
-    font-family: 'Montserrat';
+    /* font-size: 120%; */;
     font-weight: 800;
     text-decoration: none;
     color: #1B1B1B;
@@ -304,8 +297,7 @@ img{
 }
 #ten{
     /* background-color: coral; */
-    font-size: 120%;
-    font-family: 'Montserrat';
+    font-size: 120%;;
     font-weight: 600;
     display: flex;
     align-content: center;
@@ -326,8 +318,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 18px;
-    font-family: 'Montserrat';
+    border-radius: 18px;;
     font-weight: 800;
     text-align: center;
 }
@@ -357,8 +348,7 @@ img{
     /* background-color: aqua; */
     margin: 0;
     color: #C99CF4;
-    font-size: 150%;
-    font-family: 'Montserrat';
+    font-size: 150%;;
     font-weight: 800;
     align-items: center;
     justify-items: center;
@@ -383,8 +373,7 @@ img{
     text-align: right;
     padding: 0 10%;
     font-size: 70%;
-    color: white;
-    font-family: 'Montserrat';
+    color: white;;
     font-style: italic;
     font-weight: 400;
 }
@@ -400,8 +389,7 @@ img{
 .nutxemthem:hover{
     background-image: linear-gradient(-90deg, #C99CF4,#6387FA);
 }
-#chuxemthem a{
-    font-family: 'Montserrat';
+#chuxemthem a{;
     font-weight: 600;
     color: white;
 }
@@ -440,8 +428,7 @@ img{
 .nutxemthem2:hover{
     background-image: linear-gradient(-90deg, #C99CF4,#6387FA);
 }
-#chuxemthem2 a{
-    font-family: 'Montserrat';
+#chuxemthem2 a{;
     font-weight: 600;
     color: white;
 }
@@ -456,8 +443,7 @@ img{
     /* background-color: darkblue; */
     margin: 0;
     color: #C99CF4;
-    font-size: 220%;
-    font-family: 'Montserrat';
+    font-size: 220%;;
     font-weight: 800;
     align-items: center;
     justify-items: center;
@@ -541,8 +527,7 @@ img{
     height: 80px;
 }
 #contentroomid{
-    /* background-color: lightgreen; */
-    font-family: 'Montserrat';
+    /* background-color: lightgreen; */;
     font-weight: 600;
     text-align: inherit;
     font-size: 110%;
@@ -550,8 +535,7 @@ img{
 }
 
 #contentroomid2{
-    /* background-color: lightgreen; */
-    font-family: 'Montserrat';
+    /* background-color: lightgreen; */;
     font-weight: 600;
     text-align: inherit;
     font-size: 150%;
@@ -564,8 +548,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    font-family: 'Montserrat';
+    text-align: center;;
     font-weight: 600;
     font-size: 90%;
     color: white;
@@ -577,8 +560,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    font-family: 'Montserrat';
+    text-align: center;;
     font-weight: 600;
     font-size: 90%;
     color: #1B1B1B;
@@ -594,8 +576,7 @@ img{
     text-align: center;
     padding: 0;
     position: relative;
-    bottom: 0;
-    font-family: 'Montserrat';
+    bottom: 0;;
     font-weight: 600;
     font-size: 90%;
     padding: 2% 0 0 0;
@@ -606,8 +587,7 @@ img{
     height: 65%;
     color: white;
     text-align: center;
-    position: relative;
-    font-family: 'Montserrat';
+    position: relative;;
     font-weight: 600;
     font-size: 90%;
     padding: 2% 0 0 0;
@@ -638,8 +618,7 @@ img{
     top: 45%;
     font-size: 90%;
     border-radius: 9px;
-    text-align: center;
-    font-family: 'Montserrat';
+    text-align: center;;
     font-style: italic;
     font-weight: 400;
     color: gray;
@@ -654,8 +633,7 @@ input[type=password] {
     margin: 0;
 }
 
-::placeholder{
-    font-family: 'Montserrat';
+::placeholder{;
     font-style: italic;
     font-weight: 400;
     font-size: 90%;
@@ -713,13 +691,11 @@ input[type=password] {
 }
 h1{
     font-size: 100%;
-    color: #C99CF4;
-    font-family: 'Montserrat';
+    color: #C99CF4;;
     font-weight: 800;
 }
 h2{
-    font-size: 70%;
-    font-family: 'Montserrat';
+    font-size: 70%;;
     font-style: italic;
     font-weight: 400;
 }
@@ -822,8 +798,7 @@ footer{
 .hoha{
     /* background-color: pink; */
     width: 100%;
-    margin: 12% 0 0 0;
-    font-family: 'Montserrat';
+    margin: 12% 0 0 0;;
     font-weight: 800;
     font-size: 150%;
 }
@@ -853,7 +828,7 @@ footer{
 .nhapem{
     /* background-color: lightpink; */
     display: flex;
-    height: 20%;
+    height: 12%;
     align-items: center;
     padding: 0;
     width: 77%;
@@ -862,7 +837,7 @@ input[type=email] {
     background-color: #3D3838;
     color: white;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 12px;
     border-style: none;
     margin: 0;
     height: 90%;
@@ -871,4 +846,21 @@ input[type=email] {
 }
 .butt{
     margin: 10px 0;
+}
+
+li a{
+    /* background-color: wheat; */
+    padding: 0;
+    margin: 5% 0;
+    justify-content: start;
+    font-weight: 600;
+    color: #1B1B1B;
+}
+li a:hover{
+    color: gray;
+}
+#tenlh{
+    margin: 5% 0;
+    font-weight: 600;
+    line-height: 2;
 }

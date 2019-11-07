@@ -182,7 +182,7 @@ img{
     margin: 0;
     text-align: center;
 }
-.createque, .createque a{
+/* .createque, .createque a{
     background-color: white;
     margin: 0 10px;
     border-radius: 30px;
@@ -199,6 +199,11 @@ img{
 .createque:hover{
     background-color: #1B1B1B; 
     border: 2px solid white;
+} */
+.trangthai{
+    color: white;
+    font-weight: 600;
+    margin: 0 20px;
 }
 #binhchon{
     background-color: white;
@@ -210,9 +215,9 @@ img{
 #noidungch{
     /* background-color: ivory; */
     text-align: inherit;
-    padding: 0 20px;
+    padding: 0;
     float: right;
-    width: 90%;
+    width: 100%;
     font-family: 'Montserrat';
     font-weight: 800;
     color: white;
@@ -415,4 +420,79 @@ img{
 #buttbl:hover{
     background-color: #1B1B1B;
     border: 2px solid #C99CF4;
+}
+footer{
+    background-color: white;
+    height: 400px;
+}
+.hoha{
+    /* background-color: pink; */
+    width: 100%;
+    margin: 12% 0 0 0;;
+    font-weight: 800;
+    font-size: 150%;
+}
+#readmore{
+    padding: 0;
+    /* background-color: aqua; */
+    position: absolute; 
+    bottom: 10%;
+    height: 10%;
+    color: #C99CF4;
+}
+#readmore:hover{
+    color: #9668D4;
+}
+
+.gachduoi{
+    background-color: #1B1B1B;
+    width: 15%;
+    height: 6%;
+    margin: 2% 0;
+
+}
+.dkiemail{
+    /* background-color: lightblue; */
+    margin: 5% 0;
+}
+.nhapem{
+    /* background-color: lightpink; */
+    display: flex;
+    height: 12%;
+    align-items: center;
+    padding: 0;
+    width: 77%;
+}
+input[type=email] {
+    background-color: #3D3838;
+    color: white;
+    width: 100%;
+    border-radius: 12px;
+    border-style: none;
+    margin: 0;
+    height: 90%;
+    padding: 0 5%;
+    position: relative;
+}
+.butt{
+    margin: 10px 0;
+}
+li{
+    margin: 5% 0;
+}
+li a{
+    /* background-color: wheat; */
+    padding: 0;
+    margin: 5% 0;
+    justify-content: start;
+    font-weight: 600;
+    color: #1B1B1B;
+}
+li a:hover{
+    color: gray;
+}
+#tenlh{
+    margin: 5% 0;
+    font-weight: 600;
+    line-height: 2;
 }
