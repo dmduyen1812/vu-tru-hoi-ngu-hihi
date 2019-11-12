@@ -1,0 +1,529 @@
+.my-nav-bar {
+    background-color: #1B1B1B;
+    color: white;
+    height: 20%;
+    position: relative;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    list-style-type: none;
+    position: sticky;
+    z-index: 500;
+    box-shadow: 0 3px 5px 0  black;
+
+}
+body{
+    font-family: Montserrat;
+    font-weight: 400;
+}
+.canchinh{
+    /* background-color: #6387FA; */
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#button, #button a {
+    color: white;
+    width: 80%;
+    font-size: 90%;
+    height: 30%;
+    margin: 8% 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    text-align: center;
+    /* background-color: darkblue; */
+    padding:;
+}
+#button:hover {
+    background-color: white;
+    /* font-size: 15px; */
+    border-radius: 5px;
+}
+
+#button:hover a{
+    color: #1B1B1B;
+}
+.hang{
+    padding: 0 7.3%;
+}
+#logo{
+    /* background-color: grey; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+#user2, #user2 a {
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #1B1B1B;
+    font-family: 'Montserrat';
+    font-size: 93%;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+#user2:hover a{
+    color: #ff8a00;
+}
+#user1{
+    border-radius: 5px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 2px 5px;
+}
+#user1:hover {
+    background-color: #3D3838;
+}
+img{
+    width: 100%;
+    padding: 50px 0;
+}
+#ava {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0;
+    margin: 0;
+    justify-items: flex-start;
+    margin: 0 14px 0 0;
+}
+.name{
+    color: white;
+    margin-left: 5%;
+}
+/* .create-r{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 3%; 
+    position: relative !important;
+} */
+.col-sm-2{
+    text-align: center;
+}
+.content{
+    height: 100%;
+    width: 100%; 
+    background-image: url(../photo/bgr2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding-top: 4%; 
+    
+}
+/* .listr:link{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.listr:active{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.listr:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+
+}
+.listr:visited{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+} */
+a.listr:link{
+    background-color: #1B1B1B;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+   
+ }
+ a.listr:visited{
+    background-color: #1B1B1B;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+ 
+ }
+  a.listr:hover{
+    background-color: white;
+    color: black;
+    
+ } 
+ 
+ a.listr:active{
+    background-color: white;
+    color: black;
+     
+     
+ }
+
+.room{
+    background-color: #1B1B1B ;
+    border-radius: 5%;
+    height: 110%;
+}
+.room-list{
+    margin-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    /* position: static;    */
+} 
+.icon-public{
+    width: 8%;
+    margin-top: -140%;
+    margin-left: 85%;
+}
+/* .room-list{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    background-image: url(bgr2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding-top: 4%;
+} */
+.col-sm-3{
+    position: static;
+}
+.room-img{
+    /* height: 40% */
+    /* background-color: antiquewhite; */
+    width: 100%;
+    padding: ;
+}
+.name-room {
+    margin-left: 8%;
+    margin-top: -10%;
+}
+.namer{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+ #name:link{
+    text-decoration: none;
+ 
+ }
+ #tag:link{
+    text-decoration: none;
+}
+#tag:hover{
+    text-decoration: none;
+    /* color: white; */
+    background: -webkit-linear-gradient(#e52e71, #ff8a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#tagq:link{
+    text-decoration: none;
+}
+#tagq:hover{
+    text-decoration: none;
+    /* color: white; */
+    background: -webkit-linear-gradient(#e52e71, #ff8a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#tagr:link{
+    text-decoration: none;
+}
+#tagr:hover{
+    text-decoration: none;
+    /* color: white; */
+    background: -webkit-linear-gradient(#e52e71, #ff8a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#tagr{
+    color: #4A4A4A;
+    font-size: 15px;
+    /* font-weight: bold; */
+}
+.tag-room{
+    margin-left: 4%;
+    margin-top: -3%;
+}
+.tag-list{
+    margin-left: 10%;
+    margin-top: -3%;
+}
+.listp{
+    font-size: 16px;
+    
+}
+.cre-icon{
+    height: 25px;
+}
+.crep{
+    margin-left: 20%;
+}
+a.listp:link{
+    color: white;
+    border-color: white;
+    border-radius: 5%;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 5px 25px;
+}
+a.listp:active{
+    color: white;
+    border-color: white;
+    border-radius: 5%;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 5px 25px;
+
+}
+a.listp:hover{
+    color: white;
+    border-color: white;
+    border-radius: 5%;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 5px 25px;
+    
+
+}
+a.listp:visited{
+    color: white;
+    border-color: white;
+    border-radius: 5%;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 5px 25px;
+
+}
+.create-r{
+    height: 100%;
+    width: 100%;
+    color: white;
+    margin-left: 10%;
+    margin-top: 2%;
+    /* text-align: center; */
+
+}
+.qtag{
+    margin-left: 4%;
+}
+.button-join{
+    padding: 3% 25%;
+    /* background-color: white; */
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+}
+.button-join:link{
+    /* background-color: white; */
+    color: white;
+    border: 0.5px solid white;
+
+}
+.button-join:visited{
+    /* background-color: white; */
+    color: white;
+    border: 0.5px solid white;
+}
+.button-join:active{
+    background:linear-gradient(100deg, #e52e71, #ff8a00);
+    color: white;
+    border: none;
+    text-decoration: none;
+
+    
+}
+.button-join:hover{
+    background:linear-gradient(100deg, #e52e71, #ff8a00);
+    color: white;
+    border: none;
+    text-decoration: none;
+
+    
+}
+.password-bt{
+    height: 35px;
+    width: 60%;
+    padding: 2%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.modal-content{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 70%;
+}
+.password{
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.btn-danger{
+    margin-left: 27%;
+    height: 40px;
+    width: 20%;
+    background-color: #7A7A7A;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: none;
+}
+.btn-success{
+    margin-left: 5%;
+    height: 40px;
+    width: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background:linear-gradient(100deg, #e52e71, #ff8a00);
+    border: none;
+}
+.btn-success:link{
+    /* background-color: white; */
+    color: white;
+    border: 0.5px solid white;
+    
+
+}
+.btn-success:visited{
+    /* background-color: white; */
+    color: white;
+    border: 0.5px solid white;
+    /* background:linear-gradient(100deg, #C99CF4, #6387FA); */
+}
+.btn-success:active{
+    /* background:linear-gradient(100deg, #C99CF4, #6387FA); */
+    color: white;
+    border: none;
+    text-decoration: none;
+
+    
+}
+.btn-success:hover{
+    /* background:linear-gradient(100deg, #C99CF4, #6387FA); */
+    color: white;
+    border: none;
+    text-decoration: none;
+
+    
+}
+
+.btn-danger:link{
+    /* background-color: white; */
+    color: white;
+    border: 0.5px solid white;
+    background-color: #7A7A7A;
+    
+
+}
+.btn-danger:visited{
+    /* background-color: white; */
+    color: white;
+    border: 0.5px solid white;
+    /* background:linear-gradient(100deg, #C99CF4, #6387FA); */
+    background-color: #7A7A7A;
+}
+.btn-danger:active{
+    /* background:linear-gradient(100deg, #C99CF4, #6387FA); */
+    color: white;
+    border: none;
+    text-decoration: none;
+    background-color: #7A7A7A;
+
+    
+}
+.btn-danger:hover{
+    /* background:linear-gradient(100deg, #C99CF4, #6387FA); */
+    color: white;
+    border: none;
+    text-decoration: none;
+    background-color: #7A7A7A;
+
+    
+}
+
+.join{
+    text-align: center;
+    margin-top: 13%;
+}
+
+#menu{
+    
+    font-size: 13px;
+}
+#name{
+    color: white;
+    
+}
+#info{
+    margin-left: 10%;
+}
+#avt{
+    height: 30px;
+    border-radius: 50%;
+}
+#qtag1{
+    margin-left: 20%;
+}
+#tagq{
+    color: #4A4A4A;
+    font-size: 16px;
+    font-weight: bold;
+}
+.pagination{
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 70%;
+}
+.pagination a {
+    color: #7A7A7A;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #1B1B1B;
+}
+  
+.pagination a.active {
+    background-color: white;
+    color: #1B1B1B;
+    border: 1px solid white;
+}
+  
+.pagination a:hover:not(.active) {background-color: #ddd;}
